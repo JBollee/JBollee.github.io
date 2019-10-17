@@ -1,0 +1,45 @@
+list <- ["All work and no play makes Jack a dull boy." * 1000]
+print (list)
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+squares = [(i*i) for i in list]
+
+print(squares)
+
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+list = [random for i in range(10)]
+
+homework = {split("1. When I write "read", I mean *read carefully*, try the included exercices to make sure you understand, and ask for help/clarification on our slack forum if needed.
+
+2. This can be complex stuff for beginners, but it is an important topic that you will need later and we will probably not have much time to explain it in details during the class.
+
+
+For students who already master reading/writing files, read chapter 9 (Organizing files) and 11 (Web scrapping).
+
+* Exercice : write a python script that reads the name of a text file name passed as argument on the command line and print the number of words inside the file (items separated by whitespaces in it). Tips: use sys.argv to read the name of the file passed as argument, use "split" to cut text into individual words (advanced students only: try to take proper care of punctionation [~ ignore it).", " ")}
+
+
+"1. When I write "read", I mean *read carefully*, try
+    ...:  the included exercices to make sure you understand, and ask for help/c
+    ...: larification on our slack forum if needed.^M
+    ...: ^M
+    ...: 2. This can be complex stuff for beginners, but it is an important topi
+    ...: c that you will need later and we will probably not have much time to e
+    ...: xplain it in details during the class.^M
+    ...: ^M
+    ...: ^M
+    ...: For students who already master reading/writing files, read chapter 9 (
+    ...: Organizing files) and 11 (Web scrapping).^M
+    ...: ^M
+    ...: * Exercice : write a python script that reads the name of a text file n
+    ...: ame passed as argument on the command line and print the number of word
+    ...: s inside the file (items separated by whitespaces in it). Tips: use sys
+    ...: .argv to read the name of the file passed as argument, use "split" to c
+    ...: ut text into individual words (advanced students only: try to take prop
+    ...: er care of punctionation [~ ignore it)."
+
+
+    When I write, I mean *read carefully*, try the included exercices to make sure you understand, and ask for help/clarification on our slack forum if needed. This can be complex stuff for beginners, but it is an important topic that you will need later and we will probably not have much time to explain it in details during the class. For students who already master reading/writing files, read chapter 9 (Organizing files) and 11 (Web scrapping). Exercice : write a python script that reads the name of a text file name passed as argument on the command line and print the number of words inside the file (items separated by whitespaces in it). Tips: use sys.argv to read the name of the file passed as argument, use  to cut text into individual words (advanced students only: try to take proper care of punctionation [~ ignore it).".split()
+
+    
